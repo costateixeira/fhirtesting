@@ -1,0 +1,53 @@
+@startuml
+hide footbox
+!pragma teoz true
+autonumber "<b> ## </b>"
+
+<style>
+.trans {
+  arrow {
+    LineColor navy
+    LineThickness 4
+  }
+}
+</style>
+
+skinparam actorStyle awesome
+
+
+actor Author as "Test\nAuthor"
+participant Spec as "Authoring\nTool"
+'participant TestRepo as "Test\nRepository"
+'participant TestData as "Test\nData"
+
+'participant TestHarness as "Test\nHarness"
+
+'participant TestEnvironment as "Test\nEnvironment"
+'actor Vendor as "Vendor"
+'actor VendorTester as "Vendor\nTester"
+'actor TestMonitor as "Test\nMonitor"
+
+
+group Authoring
+Author -> Spec: Select testing scope 
+Author -> Spec: Create \n**__Test cases__**
+note right: Gherkin,\nTestScript,\n...
+Author -> Spec: Assemble \n**__Test Plans__**
+Author --> Spec: Create Form(s) for\nTest Registration
+Spec -> Spec: Compile \n**Test Plan**\n**Bundle**
+
+'Spec -> TestRepo <<trans>>: [TestPlan (Bundle)]
+'|||
+'TestRepo --> TestRepo: update\n**__Test Plan__** Repository
+'note left: Test plans\n   <----> \n  Actors
+'end
+
+
+...
+
+
+
+
+
+
+@enduml

@@ -1,0 +1,92 @@
+{
+  "resourceType": "Bundle",
+  "id": "testbundle1",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:05350493-265e-4f8d-87b3-549b19bd5c9d",
+      "resource": {
+        "resourceType": "TestPlan",
+        "id": "testplan1",
+        "status": "active",
+        "title": "Gherkin test plan",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No text</div>"
+        },
+        "testCase": [
+          {
+            "sequence": 1,
+            "testRun": [
+              {
+                "narrative": "**Test Measure**\n   * Populate the server with some data and a Measure\n   * call the $eval operation\n   * Use JSONpath to check that the measure evaluates correctly",
+                "script": {
+                  "language": {
+                    "coding": [
+                      {
+                        "code": "gherkin"
+                      }
+                    ]
+                  },
+                  "sourceReference": {
+                    "reference": "Binary/ghript-measure"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "sequence": 2,
+            "testRun": [
+              {
+                "narrative": "**Test Summary**\n   * Populate the server with some data\n   * call the $summary operation\n   * check that the summary is generated\n   * check that the summary was not persisted",
+                "script": {
+                  "language": {
+                    "coding": [
+                      {
+                        "code": "gherkin"
+                      }
+                    ]
+                  },
+                  "sourceReference": {
+                    "reference": "Binary/ghript-summary"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "TestPlan"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:05350493-265e-4f8d-87b3-549b19bd5c9e",
+      "resource": {
+        "resourceType" : "Binary",
+        "id" : "ghript-measure",
+        "contentType" : "text/x-gherkin",
+        "data" : "RmVhdHVyZTogVGVzdCBGSElSIEludGVyZmFjZQ0KDQpCYWNrZ3JvdW5kOg0KICAgICogdXJsICdodHRwOi8vbG9jYWxob3N0OjgwODAvZmhpcicNCiAgICAqIGhlYWRlciBBY2NlcHQgPSAnYXBwbGljYXRpb24vZmhpcitqc29uO2ZoaXJWZXJzaW9uPTQuMCcNCiAgICAqIGhlYWRlciBDb250ZW50LVR5cGUgPSAnYXBwbGljYXRpb24vZmhpcitqc29uO2ZoaXJWZXJzaW9uPTQuMCcNCg0KDQpTY2VuYXJpbzogU2VuZCBUcmFuc2FjdGlvbiB3aXRoIHRoZSBNZWFzdXJlIGRhdGENCiAgICBHaXZlbiBwYXRoICcnDQogICAgQW5kIHJlcXVlc3QgcmVhZCgnLi4vdGVzdGRhdGEvc2NyZWVuaW5nLUJ1bmRsZS5qc29uJykNCiAgICBXaGVuIG1ldGhvZCBwb3N0DQogICAgVGhlbiBzdGF0dXMgMjAwDQoNClNjZW5hcmlvOkV2YWx1YXRlIHRoZSBNZWFzdXJlDQogICAgR2l2ZW4gcGF0aCAnTWVhc3VyZS9Db2xvcmVjdGFsQ2FuY2VyU2NyZWVuaW5nQ1FNLyRldmFsdWF0ZS1tZWFzdXJlJw0KICAgIEFuZCBwYXJhbSBwYXRpZW50ID0gJ2Rlbm9tLUVYTTEzMCcNCiAgICBBbmQgcGFyYW0gcGVyaW9kU3RhcnQgPSAnMjAyMi0wMS0wMScNCiAgICBBbmQgcGFyYW0gcGVyaW9kRW5kID0gJzIwMjItMTItMzEnICAgIA0KICAgIFdoZW4gbWV0aG9kIGdldA0KICAgIFRoZW4gc3RhdHVzIDIwMA0KICAgIEFuZCBtYXRjaCByZXNwb25zZS5yZXNvdXJjZVR5cGUgPT0gJ01lYXN1cmVSZXBvcnQnDQogICAgKiBwcmludCAnUmVzcG9uc2U6JywgcmVzcG9uc2UNCiAgICBBbmQga2FyYXRlLmpzb25QYXRoKHJlc3BvbnNlLCAiJC4ucG9wdWxhdGlvbls/KEAuY29kZS5jb2RpbmdbPyhALmNvZGUgPT0gJ251bWVyYXRvcicpXSldLmNvdW50WzBdIikgPT0gMA0KICAgICogZGVmIHJlc291cmNlVHlwZSA9IHJlc3BvbnNlLmZoaXJwYXRoKCdyZXNvdXJjZVR5cGUnKQ0KICAgICogcHJpbnQgJ1Jlc291cmNlIFR5cGU6JywgcmVzb3VyY2VUeXBlDQogICAgKiBtYXRjaCByZXNvdXJjZVR5cGUgPT0gJ01lYXN1cmVSZXBvcnQnDQoNCg=="
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Binary"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:05350493-265e-4f8d-87b3-549b19bd5c9f",
+      "resource": {
+        "resourceType" : "Binary",
+        "id" : "ghript-summary",
+        "contentType" : "text/x-gherkin",
+        "data" : "RmVhdHVyZTogVGVzdCBGSElSIEludGVyZmFjZQ0KDQpCYWNrZ3JvdW5kOg0KICAgICogdXJsICdodHRwOi8vbG9jYWxob3N0OjgwODAvZmhpcicNCiAgICAqIGhlYWRlciBBY2NlcHQgPSAnYXBwbGljYXRpb24vZmhpcitqc29uO2ZoaXJWZXJzaW9uPTQuMCcNCiAgICAqIGhlYWRlciBDb250ZW50LVR5cGUgPSAnYXBwbGljYXRpb24vZmhpcitqc29uO2ZoaXJWZXJzaW9uPTQuMCcNCg0KDQpTY2VuYXJpbzogU2VuZCBUcmFuc2FjdGlvbiB3aXRoIHRoZSByYXcgcGF0aWVudCBkYXRhIC0gUGF0aWVudCwgTWVkaWNhdGlvblN0YXRlbWVudHMuLi4NCiAgICBHaXZlbiBwYXRoICcnDQogICAgQW5kIHJlcXVlc3QgcmVhZCgnLi4vdGVzdGRhdGEvaXBzLWRhdGEuanNvbicpDQogICAgV2hlbiBtZXRob2QgcG9zdA0KICAgIFRoZW4gc3RhdHVzIDIwMA0KDQpTY2VuYXJpbzogQ3JlYXRlIGFuIElQUyBvbiB0aGUgZmx5IHVzaW5nIHRoZSAkc3VtbWFyeSBvcGVyYXRpb24NCiAgICBHaXZlbiBwYXRoICdQYXRpZW50LzJiOTBkZDJiLTJkYWItNGM3NS05YmI5LWEzNTVlMDc0MDFlOC8kc3VtbWFyeScNCiAgICBXaGVuIG1ldGhvZCBnZXQNCiAgICBUaGVuIHN0YXR1cyAyMDANCiAgICBBbmQgbWF0Y2ggcmVzcG9uc2UuZW50cnlbMF0ucmVzb3VyY2UucmVzb3VyY2VUeXBlID09ICdDb21wb3NpdGlvbicNCg0KU2NlbmFyaW86IENoZWNrIHRoYXQgdGhlIHBhdGllbnQgaXMgcGVyc2lzdGVkIGFuZCBoYXMgdGhlIHJpZ2h0IG5hbWUNCiAgICBHaXZlbiBwYXRoICdQYXRpZW50Jw0KICAgIFdoZW4gbWV0aG9kIGdldA0KICAgIFRoZW4gc3RhdHVzIDIwMA0KICAgIEFuZCBtYXRjaCByZXNwb25zZS5lbnRyeVswXS5yZXNvdXJjZS5uYW1lWzBdLmZhbWlseSA9PSAnRGVMYXJvc2EnDQoNClNjZW5hcmlvOiBDaGVjayB0aGF0IHRoZXJlIGFyZSBubyBCdW5kbGVzIHBlcnNpc3RlZA0KICAgIEdpdmVuIHBhdGggJ0J1bmRsZScNCiAgICBXaGVuIG1ldGhvZCBnZXQNCiAgICBUaGVuIHN0YXR1cyAyMDANCiAgICBBbmQgbWF0Y2ggcmVzcG9uc2UudG90YWwgPT0gMA0KDQoNCg=="
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Binary"
+      }
+    }
+  ]
+}

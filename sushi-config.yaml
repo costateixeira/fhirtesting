@@ -1,0 +1,64 @@
+id: who.fhir.smart-ig-empty
+canonical: http://worldhealthorganization.github.io/smart
+name: SMART
+title: SMART Empty IG
+description: An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides
+status: draft # draft | active | retired | unknown
+version: 0.1.0
+fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+copyrightYear: 2023+
+releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
+# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+publisher:
+  name: NHO
+  url: http://Nho.one
+  # email: test@example.org
+
+
+meta:
+  profile:
+    - SMARTImplementationGuide
+
+
+menu:
+  Home: 
+    Summary: index.html
+    References: references.html
+  Business Requirements: 
+    Glossary: glossary.html
+    Generic Personas: personas.html
+  Data Models and Exchange:
+    System Actors: system-actors.html
+    Transactions: transactions.html
+
+  Indices:
+    Artifact Index: artifacts.html
+    
+#dependencies:
+#  who.base: current
+
+
+parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
+  logging: progress
+  path-binary: input/testing/testcases
+  produce-jekyll-data: true
+
+
+pages:
+  index.md:
+    title: Home
+  overview.md:
+    title: Test Process Overview
+    authoring.md:
+      title: Test Authoring
+    registration.md:
+      title: Test registration
+    execution.md:
+      title: Test execution
+
+  specifications.md:
+    title: Technical Specifications
+
+    gherkin.md:
+      title: Gherkin syntax for FHIR testing

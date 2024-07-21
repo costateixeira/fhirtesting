@@ -1,0 +1,19 @@
+Instance: testbundle0
+InstanceOf: TestPlanBundle
+Usage: #example
+Description: "Example Gherkin test plan - only simple statements."
+* type = #transaction
+
+* entry[+]
+  * fullUrl = "urn:uuid:05350493-265e-4f8d-87b3-549b19bd5c9d"
+  * resource = testplan0
+  * request.method = #PUT
+  * request.url = "TestPlan"
+
+
+* entry[+]
+  * fullUrl = "urn:uuid:05350493-265e-4f8d-87b3-549b19bd5c9e"
+  * resource = ghript-simple
+  * request.method = #PUT
+  * request.url = "Binary"
+

@@ -1,0 +1,22 @@
+@startuml
+
+hide footbox
+
+'!include ./style.iuml
+
+
+Participant "[[transactions.html#test-plan-author Test Plan\nAuthor]]" as TA
+Participant "[[transactions.html#test-plan-consumer Test Plan\nConsumer]]" as TC
+
+activate TA
+activate TC
+
+TA -[hidden]> TC
+TA -> TC: \t[[StructureDefinition-TestPlanBundle.html{Test Plan Bundle} Test Plan Bundle]]\t
+TA <-- TC: \t(response)\t
+TA -[hidden]> TC
+
+deactivate TA
+deactivate TC
+
+@enduml

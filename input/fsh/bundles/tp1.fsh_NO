@@ -1,0 +1,25 @@
+Instance: testbundle1
+InstanceOf: TestPlanBundle
+Usage: #example
+Description: "Comprehensive Gherkin test plan - Measure and Summary operations."
+* type = #transaction
+
+* entry[+]
+  * fullUrl = "urn:uuid:05350493-265e-4f8d-87b3-549b19bd5c9d"
+  * resource = testplan1
+  * request.method = #PUT
+  * request.url = "TestPlan"
+
+
+* entry[+]
+  * fullUrl = "urn:uuid:05350493-265e-4f8d-87b3-549b19bd5c9e"
+//  * resource = ghript-summary
+  * request.method = #PUT
+  * request.url = "Binary"
+
+* entry[+]
+  * fullUrl = "urn:uuid:05350493-265e-4f8d-87b3-549b19bd5c9f"
+//  * resource = ghript-measure
+  * request.method = #PUT
+  * request.url = "Binary"
+

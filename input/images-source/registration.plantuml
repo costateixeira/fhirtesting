@@ -1,0 +1,50 @@
+@startuml
+hide footbox
+!pragma teoz true
+autonumber "<b> ## </b>"
+
+<style>
+.trans {
+  arrow {
+    LineColor navy
+    LineThickness 4
+  }
+}
+</style>
+
+skinparam actorStyle awesome
+
+
+actor Vendor as "Test\nCandidate"
+'actor Author as "Test\nAuthor"
+'participant Spec as "Specification"
+participant TestRepo as "Test\nRepository"
+'participant TestData as "Test\nData"
+
+participant TestHarness as "Test\nHarness"
+
+'participant TestEnvironment as "Test\nEnvironment"
+'actor VendorTester as "Test\nUser"
+'actor TestMonitor as "Test\nMonitor"
+
+
+
+group Test Registration
+Vendor -> TestRepo: Query Test Capabilities
+...
+Vendor -> Vendor: Select Test Capabilities
+Vendor -> TestRepo: Request **Test**\n**Registration Forms** 
+'Vendor -> TestRepo: [Download Questionnaire] 
+Vendor -> Vendor: Fill **Test **\n**Registration Form(s)** 
+note right: Optionally\nparameters\ne.g. <font:monospaced>**serverURL**
+Vendor -> TestHarness  <<trans>>: Submit Test Registration
+end
+
+'note right: could be\nprepopulated\nin the future\nwith
+
+'TestHarness --> TestHarness: Assemble\nTestPlan
+
+
+
+
+@enduml

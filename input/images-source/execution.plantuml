@@ -1,0 +1,64 @@
+@startuml
+hide footbox
+!pragma teoz true
+
+<style>
+.trans {
+  arrow {
+    LineColor navy
+    LineThickness 4
+  }
+}
+</style>
+
+skinparam actorStyle awesome
+
+'actor Author as "Test\nAuthor"
+'participant Spec as "Specification"
+'participant TestRepo as "Test\nRepository"
+'participant TestData as "Test\nData"
+actor TestMonitor as "Test\nMonitor"
+
+participant TestHarness as "Test\nHarness"
+
+participant TestEnvironment as "Test\nEnvironment(s)"
+'actor Vendor as "Vendor"
+actor VendorTester as "Test\nPerformer"
+
+
+group Test Execution
+
+TestMonitor -> TestHarness : Select test
+& VendorTester -> TestHarness : Select test
+TestMonitor -> TestHarness : Initiate
+& VendorTester -> TestHarness : Initiate
+
+'note right: TestPlan\ninstantiated for\nthe vendor/actor\nconfiguration
+TestHarness -> TestEnvironment: Set up\nenvironment(s)
+
+alt automated tests
+TestHarness -> TestEnvironment: Run test steps
+else manual tests
+TestHarness -> TestEnvironment: Run test steps
+TestHarness -> VendorTester: Prompt\nfor action
+activate VendorTester
+VendorTester -> TestHarness: Execute
+deactivate VendorTester
+
+TestHarness -> TestMonitor: Request validation
+activate TestMonitor
+TestMonitor -> TestHarness: Respond
+deactivate TestMonitor
+
+
+end
+TestHarness -> TestHarness : Test Report
+
+end
+
+
+
+
+
+
+@enduml

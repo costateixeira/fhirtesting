@@ -1,0 +1,22 @@
+@startuml
+
+hide footbox
+
+'!include ./style.iuml
+
+Participant "[[transactions.html#test-initiator Test\nInitiator]]" as TI
+Participant "[[transactions.html#test-runner Test\nRunner]]" as TR
+
+activate TI
+activate TR
+
+TI -[hidden]> TR
+TI -> TR: \t[[OperationDefinition-TestPlanExecute.html{Test Plan Execute} Test Plan $execute]]\t
+...
+TI <-- TR: \t(response)\t
+TI -[hidden]> TR
+
+deactivate TI
+deactivate TR
+
+@enduml
