@@ -1,5 +1,7 @@
 Instance: testplan0
 InstanceOf: TestPlan
+Usage: #example
+Description: "Example Gherkin test plan - simple JSON testing."
 
 * status = #active
 * title = "Gherkin test plan"

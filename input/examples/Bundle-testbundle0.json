@@ -1,6 +1,6 @@
 {
   "resourceType": "Bundle",
-  "id": "testbundle1",
+  "id": "testbundle0",
   "type": "transaction",
   "entry": [
     {
@@ -10,7 +10,7 @@
         "id": "testplan1",
         "status": "active",
         "title": "Gherkin test plan",
-        "description": "Test Plan - Measure evaluation and Summary composition",
+        "description": "Test Plan - Simple content testing",
         "text": {
           "status": "empty",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No text</div>"
