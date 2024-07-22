@@ -1,8 +1,8 @@
-id: who.fhir.smart-ig-empty
-canonical: http://worldhealthorganization.github.io/smart
-name: SMART
-title: SMART Empty IG
-description: An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides
+id: fhirtesting
+canonical: http://costateixeira.github.io/fhirtesting
+name: FHIRTesting
+title: FHIR Testing
+description: An Implementation Guide about testing FHIR specifications
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -14,11 +14,6 @@ publisher:
   name: NHO
   url: http://Nho.one
   # email: test@example.org
-
-
-meta:
-  profile:
-    - SMARTImplementationGuide
 
 
 menu:
@@ -34,9 +29,7 @@ menu:
 
   Indices:
     Artifact Index: artifacts.html
-    
-#dependencies:
-#  who.base: current
+
 
 
 parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
