@@ -1,8 +1,8 @@
-This section corresponds to transaction [] of the IHE Technical Framework. Transaction [] is used by the Test Plan Creator and Test Plan Consumer actors.
+Transaction [] is used by the Test Plan Author and Test Plan Consumer actors to submit a TestPlan Bundle.
 
 ### X:Y.Z.1 Scope
 
-The Submit Test Plan [] transaction submits a Test Plan.
+The Submit Test Plan [] transaction exchanges a Test Plan from the Test Plan Author and the Test Plan Consumer.
 
 ### X:Y.Z.2 Actors Roles
 
@@ -10,7 +10,7 @@ The Submit Test Plan [] transaction submits a Test Plan.
 
 |Actor | Role |
 |-------------------+--------------------------|
-| [Test Plan Creator](transactions.html#test-plan-creator)    | Submits Test Plan |
+| [Test Plan Author](transactions.html#test-plan-author)    | Submits Test Plan |
 | [Test Plan Consumer](transactions.html#test-plan-consumer) | Receives Test Plan |
 {:.table-bordered}
 
@@ -28,30 +28,25 @@ The Submit Test Plan [] transaction submits a Test Plan.
 **Figure X:Y.Z.4-1: Supply Request Interactions**
 
 #### X:Y.Z.4.1 Supply Request Request Message
-The Test Plan Author submits a SupplyRequest resource using the HTTP POST method to the /SupplyRequest endpoint.
+The Test Plan Author submits a Test Plan Bundle resource using the HTTP POST method to the / endpoint, as a FHIR transaction.
 
 ##### X:Y.Z.4.1.1 Trigger Events
 
-This method is invoked when the Test Plan Author needs to submit one or more Supply Requests to a Supply Request Filler - to inform, to request approval, or to initiate a delivery. 
+This method is invoked when the Test Plan Author needs to submit one or more Test Plan Bundles to a Test Plan Consumer. 
 
 ##### X:Y.Z.4.1.2 Message Semantics
 
 The content type of the HTTP body shall be either `application/fhir+json` or `application/fhir+xml`.
 
-The Test Plan Author shall assure the request is consistent and actionable before sending, i.e. all authorizations and approvals are present. 
+The Test Plan Bundle shall conform with the [TestPlanBundle](StructureDefinition-testplan-bundle.html) profile. 
 
 ###### X:Y.Z.4.1.2.1 Resource content
 
-* The supply request is a SupplyDelivery resource.
-The semantics of the request and data elements are captured in the [Supply Request Data Model](StructureDefinition-SupplyRequestModel.html) and the technical constraints in the [Supply Request](StructureDefinition-SupplyRequest.html) profile.
-
-Notes
-* RequestID
-* The items to be ordered are expressed as the product code. When details about the product need to be expressed in a structured manner, the `parameter` element should be used. A reference to a resource can also be used (Medication, Device, etc.). In that case, the resource can be contained in the request. See [References](https://hl7.org/fhir/R5/references.html#contained) about contained resources.
+* The supply request is a FHIR transaction.
 
 
 ##### X:Y.Z.4.1.3 Expected Actions
-Upon receiving the Supply Request, the Supply Request Filler is expected to have all the information required to respond - approve, forward, or otherwise act upon the request.
+Upon receiving the Test Plan Bundle, the Test Plan Consumer is expected to persist it, versioned, in the persistence or storage layer. 
 The Supply Request Filler shall issue a response confirming the request has been accepted (created), or informing of any error. 
 
 

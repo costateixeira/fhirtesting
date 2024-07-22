@@ -1,6 +1,6 @@
 This Implementation Guide presents the artifacts and data exchange used in testing of FHIR specifications.
 
-The basis for this approach is (not excluively):
+The basis for this approach is (not exclusively):
 
 
 ## Authoring

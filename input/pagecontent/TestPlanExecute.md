@@ -1,4 +1,4 @@
-This section corresponds to transaction [] of the IHE Technical Framework. Transaction [] is used by the Test Plan Creator and Test Plan Consumer actors.
+This section corresponds to transaction [] of the IHE Technical Framework. Transaction [] is used by the Test Plan Author and Test Plan Consumer actors.
 
 ### X:Y.Z.1 Scope
 
@@ -41,7 +41,7 @@ The content type of the payload shall be either `application/fhir+json` or `appl
 ###### X:Y.Z.4.1.2.1 Resource content
 
 * The test plan execute is an invocation of an Operation.
-The semantics of the request and data elements are captured in the [Supply Request Data Model](StructureDefinition-SupplyRequestModel.html) and the technical constraints in the [Supply Request](StructureDefinition-SupplyRequest.html) profile.
+The semantics of the request and data elements are captured in the [Supply Request Data Model](StructureDefinition-Test Plan BundleModel.html) and the technical constraints in the [Supply Request](StructureDefinition-Test Plan Bundle.html) profile.
 
 Notes
 * RequestID
