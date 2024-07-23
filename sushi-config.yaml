@@ -36,6 +36,7 @@ parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+
   logging: progress
   path-binary: input/testing/testcases
   path-pages: input/testing/testcases
+  path-test: input/testing/testcases
   produce-jekyll-data: true
 
 
