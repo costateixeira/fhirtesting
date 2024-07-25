@@ -6,8 +6,8 @@ Description: "Example Gherkin test plan - testing Measure evaluation and Summary
 * status = #active
 * title = "Gherkin test plan"
 
-* text.status = #empty
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">No text</div>"
+//* text.status = #empty
+//* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">No text</div>"
 
 //* scope[+] = Reference(SmartHealthLink)
 
