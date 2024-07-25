@@ -1,0 +1,190 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/all-languages",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AllLanguages",
+      "title" : "All Languages",
+      "description" : "This value set includes all possible codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.21"],
+      "sources" : ["2.16.840.1.113883.4.642.3.21"],
+      "uses" : {
+      },
+      "StructureDefinition-testplan-bundle.html" : "Test Plan Bundle"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/bundle-type",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "BundleType",
+      "title" : "Bundle Type",
+      "description" : "Indicates the purpose of a bundle - how it is intended to be used.",
+      "systems" : ["http://hl7.org/fhir/bundle-type"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.620",
+        "2.16.840.1.113883.4.642.2.327",
+        "2.16.840.1.113883.4.642.3.612"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.620",
+        "2.16.840.1.113883.4.642.2.327",
+        "2.16.840.1.113883.4.642.3.612"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-testplan-bundle.html" : "Test Plan Bundle"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/http-verb",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "HTTPVerb",
+      "title" : "H T T P Verb",
+      "description" : "HTTP verbs (in the HTTP command line). See [HTTP rfc](https://tools.ietf.org/html/rfc7231) for details.",
+      "systems" : ["http://hl7.org/fhir/http-verb"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.624",
+        "2.16.840.1.113883.4.642.3.616",
+        "2.16.840.1.113883.4.642.2.329"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.624",
+        "2.16.840.1.113883.4.642.3.616",
+        "2.16.840.1.113883.4.642.2.329"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-testplan-bundle.html" : "Test Plan Bundle"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/iana-link-relations",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "LinkRelationTypes",
+      "title" : "Link Relation Types",
+      "description" : "Link Relation Types defined at https://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/iana-link-relations"],
+      "uses" : {
+      },
+      "StructureDefinition-testplan-bundle.html" : "Test Plan Bundle"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/jurisdiction",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "JurisdictionValueSet",
+      "title" : "Jurisdiction ValueSet",
+      "description" : "This value set defines a base set of codes for country, country subdivision and region    for indicating where a resource is intended to be used.   \r\n   \r\n   Note: The codes for countries and country subdivisions are taken from    [ISO 3166](https://www.iso.org/iso-3166-country-codes.html)    while the codes for \"supra-national\" regions are from    [UN Standard country or area codes for statistical use (M49)](http://unstats.un.org/unsd/methods/m49/m49.htm).",
+      "systems" : [
+        "http://unstats.un.org/unsd/methods/m49/m49.htm",
+        "urn:iso:std:iso:3166",
+        "urn:iso:std:iso:3166:-2"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.48"],
+      "sources" : ["2.16.840.1.113883.4.642.3.48"],
+      "uses" : {
+      },
+      "StructureDefinition-testplan-bundle.html" : "Test Plan Bundle"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-testplan-bundle.html" : "Test Plan Bundle"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/mimetypes",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "MimeTypes",
+      "title" : "Mime Types",
+      "description" : "This value set includes all possible codes from BCP-13 (see http://tools.ietf.org/html/bcp13)",
+      "systems" : ["urn:ietf:bcp:13"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1024"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1024"],
+      "uses" : {
+      },
+      "StructureDefinition-testplan-bundle.html" : "Test Plan Bundle"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/publication-status",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "PublicationStatus",
+      "title" : "PublicationStatus",
+      "description" : "The lifecycle status of an artifact.",
+      "systems" : ["http://hl7.org/fhir/publication-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3"],
+      "uses" : {
+      },
+      "StructureDefinition-testplan-bundle.html" : "Test Plan Bundle"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/search-entry-mode",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "SearchEntryMode",
+      "title" : "Search Entry Mode",
+      "description" : "Why an entry is in the result set - whether it's included as a match or because of an _include requirement, or to convey information or warning information about the search process.",
+      "systems" : ["http://hl7.org/fhir/search-entry-mode"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.328",
+        "2.16.840.1.113883.4.642.3.622",
+        "2.16.840.1.113883.4.642.3.614"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.328",
+        "2.16.840.1.113883.4.642.3.622",
+        "2.16.840.1.113883.4.642.3.614"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-testplan-bundle.html" : "Test Plan Bundle"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/testscript-scope-phase-codes",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "TestScriptScopePhaseType",
+      "title" : "Test Script Scope Phase Type",
+      "description" : "The phase of testing for this artifact.",
+      "systems" : ["http://hl7.org/fhir/testscript-scope-phase-codes"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3056"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3056"],
+      "uses" : {
+      },
+      "StructureDefinition-testplan-bundle.html" : "Test Plan Bundle"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/version-algorithm",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "VersionAlgorithm",
+      "title" : "Version Algorithm",
+      "description" : "Indicates the mechanism used to compare versions to determine which is more current.",
+      "systems" : ["http://hl7.org/fhir/version-algorithm"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3103"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3103"],
+      "uses" : {
+      },
+      "StructureDefinition-testplan-bundle.html" : "Test Plan Bundle"
+    }
+  ]
+}

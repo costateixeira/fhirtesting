@@ -1,0 +1,15 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://costateixeira.github.io/fhirtesting/Binary/ghript-measure> a fhir:Binary ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ghript-measure"] ; # 
+  fhir:contentType [ fhir:v "text/x-gherkin"] ; # 
+  fhir:data [ fhir:v "RmVhdHVyZTogVGVzdCBGSElSIEludGVyZmFjZQoKQmFja2dyb3VuZDoKICAgICogdXJsICdodHRwOi8vbG9jYWxob3N0OjgwODAvZmhpcicKICAgICogaGVhZGVyIEFjY2VwdCA9ICdhcHBsaWNhdGlvbi9maGlyK2pzb247ZmhpclZlcnNpb249NC4wJwogICAgKiBoZWFkZXIgQ29udGVudC1UeXBlID0gJ2FwcGxpY2F0aW9uL2ZoaXIranNvbjtmaGlyVmVyc2lvbj00LjAnCgoKU2NlbmFyaW86IFNlbmQgVHJhbnNhY3Rpb24gd2l0aCB0aGUgTWVhc3VyZSBkYXRhCiAgICBHaXZlbiBwYXRoICcnCiAgICBBbmQgcmVxdWVzdCByZWFkKCcuLi90ZXN0ZGF0YS9zY3JlZW5pbmctQnVuZGxlLmpzb24nKQogICAgV2hlbiBtZXRob2QgcG9zdAogICAgVGhlbiBzdGF0dXMgMjAwCgpTY2VuYXJpbzpFdmFsdWF0ZSB0aGUgTWVhc3VyZQogICAgR2l2ZW4gcGF0aCAnTWVhc3VyZS9Db2xvcmVjdGFsQ2FuY2VyU2NyZWVuaW5nQ1FNLyRldmFsdWF0ZS1tZWFzdXJlJwogICAgQW5kIHBhcmFtIHBhdGllbnQgPSAnZGVub20tRVhNMTMwJwogICAgQW5kIHBhcmFtIHBlcmlvZFN0YXJ0ID0gJzIwMjItMDEtMDEnCiAgICBBbmQgcGFyYW0gcGVyaW9kRW5kID0gJzIwMjItMTItMzEnICAgIAogICAgV2hlbiBtZXRob2QgZ2V0CiAgICBUaGVuIHN0YXR1cyAyMDAKICAgIEFuZCBtYXRjaCByZXNwb25zZS5yZXNvdXJjZVR5cGUgPT0gJ01lYXN1cmVSZXBvcnQnCiAgICAqIHByaW50ICdSZXNwb25zZTonLCByZXNwb25zZQogICAgQW5kIGpzb25QYXRoKHJlc3BvbnNlLCAiJC4ucG9wdWxhdGlvbls/KEAuY29kZS5jb2RpbmdbPyhALmNvZGUgPT0gJ251bWVyYXRvcicpXSldLmNvdW50WzBdIikgPT0gMAogICAgKiBkZWYgcmVzb3VyY2VUeXBlID0gcmVzcG9uc2UuZmhpcnBhdGgoJ3Jlc291cmNlVHlwZScpCiAgICAqIHByaW50ICdSZXNvdXJjZSBUeXBlOicsIHJlc291cmNlVHlwZQogICAgKiBtYXRjaCByZXNvdXJjZVR5cGUgPT0gJ01lYXN1cmVSZXBvcnQnCgo="^^xsd:base64Binary] . # 
+
+# -------------------------------------------------------------------------------------
+
