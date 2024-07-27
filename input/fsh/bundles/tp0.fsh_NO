@@ -1,4 +1,4 @@
-Instance: testbundle0
+Instance: testbundle01
 InstanceOf: TestPlanBundle
 Usage: #example
 Description: "Example Gherkin test plan - only simple statements."

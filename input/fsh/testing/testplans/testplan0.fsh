@@ -9,7 +9,7 @@ Description: "Example Gherkin test plan - simple JSON testing."
 * text.status = #empty
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">No text</div>"
 
-//* scope[+] = Reference(SmartHealthLink)
+* contained[0] = ghript-simple
 
 * testCase[+]
   * sequence = 1
@@ -20,7 +20,7 @@ Description: "Example Gherkin test plan - simple JSON testing."
 """
     * script
       * language = #gherkin
-      * sourceReference = Reference(ghript-simple)
+      * sourceReference.reference = "#ghript-simple"
 
 
 Instance: ghript-simple
