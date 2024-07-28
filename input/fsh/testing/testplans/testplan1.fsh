@@ -22,7 +22,9 @@ Description: "Example Gherkin test plan - testing Measure evaluation and Summary
 """
     * script
       * language = #gherkin
-      * sourceReference = Reference(ghript-measure)
+      * sourceReference = Reference(ig-loader-measure.feature)
+//      * sourceReference.reference = "#ghript-measure"
+//      * sourceReference.type = #Binary
 
 * testCase[+]
   * sequence = 2
@@ -36,11 +38,11 @@ Description: "Example Gherkin test plan - testing Measure evaluation and Summary
 
     * script
       * language = #gherkin
-      * sourceReference = Reference(ghript-summary)
+      * sourceReference = Reference(ig-loader-summary.feature)
 
 
 
-Instance: ghript-measure
+Instance: ig-loader-measure.feature
 InstanceOf: Binary
 Usage: #example
 Title: "Gherkin script - Measure"
@@ -49,7 +51,7 @@ Description: "Gherkin script for Measure testing - using Binary loader."
 * data = "ig-loader-measure.feature"
 
 
-Instance: ghript-summary
+Instance: ig-loader-summary.feature
 InstanceOf: Binary
 Usage: #example
 Title: "Gherkin script - Summary"
