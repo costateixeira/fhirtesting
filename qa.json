@@ -1,0 +1,19 @@
+{
+  "url" : "http://costateixeira.github.io/fhirtesting/ImplementationGuide/fhirtesting",
+  "name" : "FHIRTesting",
+  "title" : "FHIR Testing",
+  "description" : "An Implementation Guide about testing FHIR specifications",
+  "status" : "draft",
+  "package-id" : "fhirtesting",
+  "ig-ver" : "0.1.0",
+  "date" : "Tue, 13 Aug, 2024 18:15:38 +0000",
+  "dateISO8601" : "2024-08-13T18:15:38+00:00",
+  "errs" : 3,
+  "warnings" : 20,
+  "hints" : 2,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "5.0.0",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 982941960
+}

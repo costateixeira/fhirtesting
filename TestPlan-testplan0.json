@@ -1,0 +1,37 @@
+{
+  "resourceType" : "TestPlan",
+  "id" : "testplan0",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: TestPlan testplan0</b></p><a name=\"testplan0\"> </a><a name=\"hctestplan0\"> </a><a name=\"testplan0-en-US\"> </a><p><b>url</b>: <a href=\"TestPlan-testplan0.html\">Gherkin test plan</a></p><p><b>version</b>: 0.1.0</p><p><b>title</b>: Gherkin test plan</p><p><b>status</b>: Active</p><p><b>date</b>: 2024-08-13 18:15:38+0000</p><p><b>publisher</b>: NHO</p><p><b>contact</b>: NHO: <a href=\"http://Nho.one\">http://Nho.one</a></p><blockquote><p><b>testCase</b></p><p><b>sequence</b>: 1</p><blockquote><p><b>testRun</b></p><p><b>narrative</b>: </p><div><p><strong>Simple JSON test</strong></p>\n<ul>\n<li>Check if the test processor is working correctly</li>\n</ul>\n</div><h3>Scripts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Language</b></td><td><b>Source[x]</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">gherkin</span></td><td><a href=\"Binary-ghript-simple.html\">Binary: 392 chars (base64)</a></td></tr></table></blockquote></blockquote></div>"
+  },
+  "url" : "http://costateixeira.github.io/fhirtesting/TestPlan/testplan0",
+  "version" : "0.1.0",
+  "title" : "Gherkin test plan",
+  "status" : "active",
+  "date" : "2024-08-13T18:15:38+00:00",
+  "publisher" : "NHO",
+  "contact" : [{
+    "name" : "NHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://Nho.one"
+    }]
+  }],
+  "testCase" : [{
+    "sequence" : 1,
+    "testRun" : [{
+      "narrative" : "**Simple JSON test**\n   * Check if the test processor is working correctly",
+      "script" : {
+        "language" : {
+          "coding" : [{
+            "code" : "gherkin"
+          }]
+        },
+        "sourceReference" : {
+          "reference" : "Binary/ghript-simple"
+        }
+      }
+    }]
+  }]
+}

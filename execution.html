@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Test execution - FHIR Testing v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script src="assets/js/mermaid.js" type="text/javascript"></script>
+    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
+    <style type="text/css">h2{--heading-prefix:"2.3"}
+    h3,h4,h5,h6{--heading-prefix:"2.3"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Testing</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Home
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Summary</a>
+      </li>
+      <li><a name="l150">​</a>
+        <a href="references.html">References</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Business Requirements
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l167">​</a>
+        <a href="glossary.html">Glossary</a>
+      </li>
+      <li><a name="l173">​</a>
+        <a href="personas.html">Generic Personas</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Data Models and Exchange
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l190">​</a>
+        <a href="system-actors.html">System Actors</a>
+      </li>
+      <li><a name="l196">​</a>
+        <a href="transactions.html">Transactions</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Indices
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html">Artifact Index</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="overview.html"><b>Test Process Overview</b></a></li><li><b>Test execution</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">FHIR Testing, published by NHO. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/costateixeira/fhirtesting">https://github.com/costateixeira/fhirtesting</a> and changes regularly. See the <a href="http://costateixeira.github.io/fhirtesting/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>Test execution</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p>  <!-- white space is critical inside of capture --></p>
+<div>
+  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
+</div>
+
+<h3 id="process-overview">Process overview</h3>
+
+<figure>
+    <!-- ?xml version="1.0" encoding="us-ascii" standalone="no"? --><svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css" viewBox="0 0 530 581" zoomAndPan="magnify" preserveAspectRatio="none" width="530px" xmlns:xlink="http://www.w3.org/1999/xlink" style="width:530px;height:581px;background:#FFFFFF;" version="1.1" height="581px"><defs></defs><g><line y1="100.5938" x1="72" y2="574.2578" style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x2="72"></line><rect width="10" x="67" y="456.9922" style="stroke:#181818;stroke-width:1.0;" fill="#FFFFFF" height="29.1328"></rect><line y1="100.5938" x1="218" y2="574.2578" style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x2="218"></line><line y1="100.5938" x1="340" y2="574.2578" style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x2="340"></line><line y1="100.5938" x1="446.5" y2="574.2578" style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x2="446.5"></line><rect width="10" x="441.5" y="398.7266" style="stroke:#181818;stroke-width:1.0;" fill="#FFFFFF" height="29.1328"></rect><text lengthAdjust="spacing" x="53.5" font-size="14" textLength="31" y="80.9951" font-family="sans-serif" fill="#000000">Test</text><text lengthAdjust="spacing" x="43" font-size="14" textLength="52" y="97.292" font-family="sans-serif" fill="#000000">Monitor</text><ellipse cx="72" cy="22.5" rx="16" ry="16" style="stroke:#181818;stroke-width:1.5;" fill="#E2E2F0"></ellipse><path d="M72,42.5 C76,42.5 79,42.5 83,38.5 C91,38.5 99,46.5 99,54.5 L99,58.5 C99,62.5 95,66.5 91,66.5 L53,66.5 C49,66.5 45,62.5 45,58.5 L45,54.5 C45,46.5 53,38.5 61,38.5 C65,42.5 68,42.5 72,42.5 " style="stroke:#181818;stroke-width:1.5;" fill="#E2E2F0"></path><rect rx="2.5" ry="2.5" width="71" x="182.5" y="53" style="stroke:#181818;stroke-width:0.5;" fill="#E2E2F0" height="46.5938"></rect><text lengthAdjust="spacing" x="202.5" font-size="14" textLength="31" y="72.9951" font-family="sans-serif" fill="#000000">Test</text><text lengthAdjust="spacing" x="189.5" font-size="14" textLength="57" y="89.292" font-family="sans-serif" fill="#000000">Harness</text><rect rx="2.5" ry="2.5" width="119" x="280.5" y="53" style="stroke:#181818;stroke-width:0.5;" fill="#E2E2F0" height="46.5938"></rect><text lengthAdjust="spacing" x="324.5" font-size="14" textLength="31" y="72.9951" font-family="sans-serif" fill="#000000">Test</text><text lengthAdjust="spacing" x="287.5" font-size="14" textLength="105" y="89.292" font-family="sans-serif" fill="#000000">Environment(s)</text><text lengthAdjust="spacing" x="428" font-size="14" textLength="31" y="80.9951" font-family="sans-serif" fill="#000000">Test</text><text lengthAdjust="spacing" x="409.5" font-size="14" textLength="68" y="97.292" font-family="sans-serif" fill="#000000">Performer</text><ellipse cx="446.5" cy="22.5" rx="16" ry="16" style="stroke:#181818;stroke-width:1.5;" fill="#E2E2F0"></ellipse><path d="M446.5,42.5 C450.5,42.5 453.5,42.5 457.5,38.5 C465.5,38.5 473.5,46.5 473.5,54.5 L473.5,58.5 C473.5,62.5 469.5,66.5 465.5,66.5 L427.5,66.5 C423.5,66.5 419.5,62.5 419.5,58.5 L419.5,54.5 C419.5,46.5 427.5,38.5 435.5,38.5 C439.5,42.5 442.5,42.5 446.5,42.5 " style="stroke:#181818;stroke-width:1.5;" fill="#E2E2F0"></path><path d="M8,112.5938 L160,112.5938 L160,119.7266 L150,129.7266 L8,129.7266 L8,112.5938 " style="stroke:#000000;stroke-width:1.5;" fill="#EEEEEE"></path><rect width="516.5" x="8" y="112.5938" style="stroke:#000000;stroke-width:1.5;" fill="none" height="437.6641"></rect><text font-weight="bold" lengthAdjust="spacing" x="23" font-size="13" textLength="107" y="125.6606" font-family="sans-serif" fill="#000000">Test Execution</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="206,156.8594,216,160.8594,206,164.8594,210,160.8594"></polygon><line y1="160.8594" x1="72" y2="160.8594" style="stroke:#181818;stroke-width:1.0;" x2="212"></line><text lengthAdjust="spacing" x="79" font-size="13" textLength="69" y="155.7935" font-family="sans-serif" fill="#000000">Select test</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="229,156.8594,219,160.8594,229,164.8594,225,160.8594"></polygon><line y1="160.8594" x1="223" y2="160.8594" style="stroke:#181818;stroke-width:1.0;" x2="445.5"></line><text lengthAdjust="spacing" x="235" font-size="13" textLength="69" y="155.7935" font-family="sans-serif" fill="#000000">Select test</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="206,185.9922,216,189.9922,206,193.9922,210,189.9922"></polygon><line y1="189.9922" x1="72" y2="189.9922" style="stroke:#181818;stroke-width:1.0;" x2="212"></line><text lengthAdjust="spacing" x="79" font-size="13" textLength="43" y="184.9263" font-family="sans-serif" fill="#000000">Initiate</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="229,185.9922,219,189.9922,229,193.9922,225,189.9922"></polygon><line y1="189.9922" x1="223" y2="189.9922" style="stroke:#181818;stroke-width:1.0;" x2="445.5"></line><text lengthAdjust="spacing" x="235" font-size="13" textLength="43" y="184.9263" font-family="sans-serif" fill="#000000">Initiate</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="328,230.2578,338,234.2578,328,238.2578,332,234.2578"></polygon><line y1="234.2578" x1="218" y2="234.2578" style="stroke:#181818;stroke-width:1.0;" x2="334"></line><text lengthAdjust="spacing" x="225" font-size="13" textLength="42" y="214.0591" font-family="sans-serif" fill="#000000">Set up</text><text lengthAdjust="spacing" x="225" font-size="13" textLength="98" y="229.1919" font-family="sans-serif" fill="#000000">environment(s)</text><path d="M27,246.2578 L91,246.2578 L91,253.3906 L81,263.3906 L27,263.3906 L27,246.2578 " style="stroke:#000000;stroke-width:1.5;" fill="#EEEEEE"></path><rect width="472.5" x="27" y="246.2578" style="stroke:#000000;stroke-width:1.5;" fill="none" height="247.8672"></rect><text font-weight="bold" lengthAdjust="spacing" x="42" font-size="13" textLength="19" y="259.3247" font-family="sans-serif" fill="#000000">alt</text><text font-weight="bold" lengthAdjust="spacing" x="106" font-size="11" textLength="115" y="258.4683" font-family="sans-serif" fill="#000000">[automated tests]</text><line y1="313.5234" x1="27" y2="313.5234" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x2="499.5"></line><text font-weight="bold" lengthAdjust="spacing" x="32" font-size="11" textLength="93" y="325.7339" font-family="sans-serif" fill="#000000">[manual tests]</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="328,290.5234,338,294.5234,328,298.5234,332,294.5234"></polygon><line y1="294.5234" x1="218" y2="294.5234" style="stroke:#181818;stroke-width:1.0;" x2="334"></line><text lengthAdjust="spacing" x="225" font-size="13" textLength="92" y="289.4575" font-family="sans-serif" fill="#000000">Run test steps</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="328,350.4609,338,354.4609,328,358.4609,332,354.4609"></polygon><line y1="354.4609" x1="218" y2="354.4609" style="stroke:#181818;stroke-width:1.0;" x2="334"></line><text lengthAdjust="spacing" x="225" font-size="13" textLength="92" y="349.395" font-family="sans-serif" fill="#000000">Run test steps</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="429.5,394.7266,439.5,398.7266,429.5,402.7266,433.5,398.7266"></polygon><line y1="398.7266" x1="218" y2="398.7266" style="stroke:#181818;stroke-width:1.0;" x2="435.5"></line><text lengthAdjust="spacing" x="225" font-size="13" textLength="47" y="378.5278" font-family="sans-serif" fill="#000000">Prompt</text><text lengthAdjust="spacing" x="225" font-size="13" textLength="60" y="393.6606" font-family="sans-serif" fill="#000000">for action</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="229,423.8594,219,427.8594,229,431.8594,225,427.8594"></polygon><line y1="427.8594" x1="223" y2="427.8594" style="stroke:#181818;stroke-width:1.0;" x2="440.5"></line><text lengthAdjust="spacing" x="235" font-size="13" textLength="51" y="422.7935" font-family="sans-serif" fill="#000000">Execute</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="88,452.9922,78,456.9922,88,460.9922,84,456.9922"></polygon><line y1="456.9922" x1="82" y2="456.9922" style="stroke:#181818;stroke-width:1.0;" x2="217"></line><text lengthAdjust="spacing" x="94" font-size="13" textLength="117" y="451.9263" font-family="sans-serif" fill="#000000">Request validation</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="206,482.125,216,486.125,206,490.125,210,486.125"></polygon><line y1="486.125" x1="77" y2="486.125" style="stroke:#181818;stroke-width:1.0;" x2="212"></line><text lengthAdjust="spacing" x="84" font-size="13" textLength="55" y="481.0591" font-family="sans-serif" fill="#000000">Respond</text><line y1="529.2578" x1="218" y2="529.2578" style="stroke:#181818;stroke-width:1.0;" x2="260"></line><line y1="529.2578" x1="260" y2="542.2578" style="stroke:#181818;stroke-width:1.0;" x2="260"></line><line y1="542.2578" x1="219" y2="542.2578" style="stroke:#181818;stroke-width:1.0;" x2="260"></line><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="229,538.2578,219,542.2578,229,546.2578,225,542.2578"></polygon><text lengthAdjust="spacing" x="225" font-size="13" textLength="73" y="524.1919" font-family="sans-serif" fill="#000000">Test Report</text></g></svg>
+  <figcaption>Test Execution</figcaption>
+</figure>
+
+<ol>
+  <li>A Test Monitor (or test initiator) selects the test(s)</li>
+  <li>The test monitor triggers the Test Harness to initiate the tests</li>
+  <li>The Test Harness begins by setting up environments and anything needed</li>
+</ol>
+
+<p>How does this work with test data?</p>
+
+<p>OPTIONALLY</p>
+
+<p>The Test Harness receives the test plan, configuration parameters AND the instruction to execute in one single request.</p>
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://Nho.one">NHO</a>.  Package fhirtesting#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Aug 13, 2024 18:15+0000">2024-08-13</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

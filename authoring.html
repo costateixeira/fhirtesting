@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Test Authoring - FHIR Testing v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script src="assets/js/mermaid.js" type="text/javascript"></script>
+    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
+    <style type="text/css">h2{--heading-prefix:"2.1"}
+    h3,h4,h5,h6{--heading-prefix:"2.1"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Testing</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Home
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Summary</a>
+      </li>
+      <li><a name="l150">​</a>
+        <a href="references.html">References</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Business Requirements
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l167">​</a>
+        <a href="glossary.html">Glossary</a>
+      </li>
+      <li><a name="l173">​</a>
+        <a href="personas.html">Generic Personas</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Data Models and Exchange
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l190">​</a>
+        <a href="system-actors.html">System Actors</a>
+      </li>
+      <li><a name="l196">​</a>
+        <a href="transactions.html">Transactions</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Indices
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html">Artifact Index</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="overview.html"><b>Test Process Overview</b></a></li><li><b>Test Authoring</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">FHIR Testing, published by NHO. This guide is not an authorized publication; it is the continuous build for version 0.1.0 built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/costateixeira/fhirtesting">https://github.com/costateixeira/fhirtesting</a> and changes regularly. See the <a href="http://costateixeira.github.io/fhirtesting/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>Test Authoring</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p>  <!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#process-overview" id="markdown-toc-process-overview">Process overview</a></li>
+  <li><a href="#glossary" id="markdown-toc-glossary">Glossary</a></li>
+  <li><a href="#glossary-1" id="markdown-toc-glossary-1">Glossary</a></li>
+</ul>
+
+</div>
+<p>Authoring testing normally consists of:</p>
+
+<ul>
+  <li>Obtaining or <strong><a name="l331">​</a><a href="#test-data">Authoring Test Data</a></strong></li>
+  <li>Authoring <strong><a name="l337">​</a><a href="#test-cases">Test Cases</a></strong></li>
+  <li>Authoring <strong><a name="l343">​</a><a href="#test-suites">Test suites</a></strong></li>
+  <li>Authoring <strong><a href="#test-registration-form">Test Registration forms</a></strong></li>
+</ul>
+
+<h3 id="process-overview">Process overview</h3>
+
+<figure>
+    <!-- ?xml version="1.0" encoding="us-ascii" standalone="no"? --><svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css" viewBox="0 0 337 454" zoomAndPan="magnify" preserveAspectRatio="none" width="337px" xmlns:xlink="http://www.w3.org/1999/xlink" style="width:337px;height:454px;background:#FFFFFF;" version="1.1" height="454px"><defs></defs><g><line y1="100.5938" x1="33.5" y2="395.1875" style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x2="33.5"></line><line y1="395.1875" x1="33.5" y2="423.1875" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x2="33.5"></line><line y1="423.1875" x1="33.5" y2="447.1875" style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x2="33.5"></line><line y1="100.5938" x1="210.5" y2="395.1875" style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x2="210.5"></line><line y1="395.1875" x1="210.5" y2="423.1875" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x2="210.5"></line><line y1="423.1875" x1="210.5" y2="447.1875" style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x2="210.5"></line><text lengthAdjust="spacing" x="15" font-size="14" textLength="31" y="80.9951" font-family="sans-serif" fill="#000000">Test</text><text lengthAdjust="spacing" x="7.5" font-size="14" textLength="46" y="97.292" font-family="sans-serif" fill="#000000">Author</text><ellipse cx="33.5" cy="22.5" rx="16" ry="16" style="stroke:#181818;stroke-width:1.5;" fill="#E2E2F0"></ellipse><path d="M33.5,42.5 C37.5,42.5 40.5,42.5 44.5,38.5 C52.5,38.5 60.5,46.5 60.5,54.5 L60.5,58.5 C60.5,62.5 56.5,66.5 52.5,66.5 L14.5,66.5 C10.5,66.5 6.5,62.5 6.5,58.5 L6.5,54.5 C6.5,46.5 14.5,38.5 22.5,38.5 C26.5,42.5 29.5,42.5 33.5,42.5 " style="stroke:#181818;stroke-width:1.5;" fill="#E2E2F0"></path><rect rx="2.5" ry="2.5" width="81" x="170" y="53" style="stroke:#181818;stroke-width:0.5;" fill="#E2E2F0" height="46.5938"></rect><text lengthAdjust="spacing" x="177" font-size="14" textLength="67" y="72.9951" font-family="sans-serif" fill="#000000">Authoring</text><text lengthAdjust="spacing" x="195.5" font-size="14" textLength="30" y="89.292" font-family="sans-serif" fill="#000000">Tool</text><path d="M17.5,112.5938 L134.5,112.5938 L134.5,119.7266 L124.5,129.7266 L17.5,129.7266 L17.5,112.5938 " style="stroke:#000000;stroke-width:1.5;" fill="#EEEEEE"></path><rect width="314" x="17.5" y="112.5938" style="stroke:#000000;stroke-width:1.5;" fill="none" height="310.5938"></rect><text font-weight="bold" lengthAdjust="spacing" x="32.5" font-size="13" textLength="72" y="125.6606" font-family="sans-serif" fill="#000000">Authoring</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="198.5,156.8594,208.5,160.8594,198.5,164.8594,202.5,160.8594"></polygon><line y1="160.8594" x1="33.5" y2="160.8594" style="stroke:#181818;stroke-width:1.0;" x2="204.5"></line><text font-weight="bold" lengthAdjust="spacing" x="45.5" font-size="13" textLength="9" y="155.7935" font-family="sans-serif" fill="#000000">1</text><text lengthAdjust="spacing" x="63.5" font-size="13" textLength="130" y="155.7935" font-family="sans-serif" fill="#000000">Select testing scope</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="198.5,201.125,208.5,205.125,198.5,209.125,202.5,205.125"></polygon><line y1="205.125" x1="33.5" y2="205.125" style="stroke:#181818;stroke-width:1.0;" x2="204.5"></line><text font-weight="bold" lengthAdjust="spacing" x="45.5" font-size="13" textLength="9" y="192.4927" font-family="sans-serif" fill="#000000">2</text><text lengthAdjust="spacing" x="63.5" font-size="13" textLength="43" y="184.9263" font-family="sans-serif" fill="#000000">Create</text><text font-weight="bold" lengthAdjust="spacing" text-decoration="underline" x="63.5" font-size="13" textLength="78" y="200.0591" font-family="sans-serif" fill="#000000">Test cases</text><path d="M215.5,173.8594 L215.5,228.8594 L304.5,228.8594 L304.5,183.8594 L294.5,173.8594 L215.5,173.8594 " style="stroke:#181818;stroke-width:0.5;" fill="#FEFFDD"></path><path d="M294.5,173.8594 L294.5,183.8594 L304.5,183.8594 L294.5,173.8594 " style="stroke:#181818;stroke-width:0.5;" fill="#FEFFDD"></path><text lengthAdjust="spacing" x="221.5" font-size="13" textLength="53" y="190.9263" font-family="sans-serif" fill="#000000">Gherkin,</text><text lengthAdjust="spacing" x="221.5" font-size="13" textLength="68" y="206.0591" font-family="sans-serif" fill="#000000">TestScript,</text><text lengthAdjust="spacing" x="221.5" font-size="13" textLength="12" y="221.1919" font-family="sans-serif" fill="#000000">...</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="198.5,266.5234,208.5,270.5234,198.5,274.5234,202.5,270.5234"></polygon><line y1="270.5234" x1="33.5" y2="270.5234" style="stroke:#181818;stroke-width:1.0;" x2="204.5"></line><text font-weight="bold" lengthAdjust="spacing" x="45.5" font-size="13" textLength="9" y="257.8911" font-family="sans-serif" fill="#000000">3</text><text lengthAdjust="spacing" x="63.5" font-size="13" textLength="63" y="250.3247" font-family="sans-serif" fill="#000000">Assemble</text><text font-weight="bold" lengthAdjust="spacing" text-decoration="underline" x="63.5" font-size="13" textLength="76" y="265.4575" font-family="sans-serif" fill="#000000">Test Plans</text><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="198.5,310.7891,208.5,314.7891,198.5,318.7891,202.5,314.7891"></polygon><line y1="314.7891" x1="33.5" y2="314.7891" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x2="204.5"></line><text font-weight="bold" lengthAdjust="spacing" x="45.5" font-size="13" textLength="9" y="302.1567" font-family="sans-serif" fill="#000000">4</text><text lengthAdjust="spacing" x="63.5" font-size="13" textLength="118" y="294.5903" font-family="sans-serif" fill="#000000">Create Form(s) for</text><text lengthAdjust="spacing" x="63.5" font-size="13" textLength="107" y="309.7231" font-family="sans-serif" fill="#000000">Test Registration</text><line y1="374.1875" x1="210.5" y2="374.1875" style="stroke:#181818;stroke-width:1.0;" x2="252.5"></line><line y1="374.1875" x1="252.5" y2="387.1875" style="stroke:#181818;stroke-width:1.0;" x2="252.5"></line><line y1="387.1875" x1="211.5" y2="387.1875" style="stroke:#181818;stroke-width:1.0;" x2="252.5"></line><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="221.5,383.1875,211.5,387.1875,221.5,391.1875,217.5,387.1875"></polygon><text font-weight="bold" lengthAdjust="spacing" x="222.5" font-size="13" textLength="9" y="353.9888" font-family="sans-serif" fill="#000000">5</text><text lengthAdjust="spacing" x="240.5" font-size="13" textLength="52" y="338.856" font-family="sans-serif" fill="#000000">Compile</text><text font-weight="bold" lengthAdjust="spacing" x="240.5" font-size="13" textLength="68" y="353.9888" font-family="sans-serif" fill="#000000">Test Plan</text><text font-weight="bold" lengthAdjust="spacing" x="240.5" font-size="13" textLength="51" y="369.1216" font-family="sans-serif" fill="#000000">Bundle</text></g></svg>
+  <figcaption>Test Authoring</figcaption>
+</figure>
+
+<ol>
+  <li>The Test Author selects the testing scope - i.e. what is the artifact or capability or feature that is intended to be tested.
+    <ul>
+      <li>The testing scope should be defined - ideally with an actor or an actor/transaction option.</li>
+      <li>Testing scope should correspond to the granularity that the compliance is to be checked and reported.</li>
+      <li>There should be an artifact representing that scope, e.g. an ActorDefinition, or a CapabilityStatement[requirements]
+        <ul>
+          <li>The scope could be an entire ImplementationGuide but ImplementationGuides normally represent several systems, and it is not normal to assess conformance on a set of systems</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Test Author creates the test cases to cover the functionality
+    <ul>
+      <li>Test cases can be TestScrips or Gherkin features, depending on the test execution tooling</li>
+      <li><a name="l469">​</a>See <a href="gherkin">gherkin syntax</a> for a FHIR-specific gherkin test syntax</li>
+    </ul>
+  </li>
+  <li>Test Author assembles test plans by clustering the test cases per type or per sub-features as desired.
+    <ul>
+      <li>Examples - "<em>baseline testing</em>", "<em>negative testing</em>", "<em>performance testing</em>"…</li>
+    </ul>
+  </li>
+  <li>
+    <p>Test Author creates Test Registration Forms. These forms will allow the test candidate to register for testing specific features.</p>
+  </li>
+  <li>
+    <p>The specification (publisher) compiles the Test Plans</p>
+  </li>
+  <li>
+    <p>The Test Plans are pushed to a test Repository.</p>
+  </li>
+  <li>The test repository then gets updated. It will thus contain Test Plans for the different scopes / capabilities. These Test plans can be configured for each test run and for each vendor.</li>
+</ol>
+
+<h3 id="glossary">Glossary</h3>
+
+<p>A Test Suite is</p>
+
+<p><strong>__Test Case__</strong></p>
+
+<p><strong>__Capability__</strong></p>
+
+<p><strong><a name="test-registration"></a>Test Registration</strong> - process in which a test candidate (typically a software vendor) enrolls their system to be tested - selecting which capabilities to be tested.</p>
+
+<p><strong><a name="test-suite"></a>Test Suite</strong></p>
+
+<p><strong><a name="test-registration-form"></a>Test Registration Form</strong></p>
+
+<h3 id="glossary-1">Glossary</h3>
+
+<p>A Test Suite is</p>
+
+<p><strong>__Test Case__</strong></p>
+
+<p><strong>__Capability__</strong></p>
+
+<p><strong><a name="test-registration"></a>Test Registration</strong> - process in which a test candidate (typically a software vendor) enrolls their system to be tested - selecting which capabilities to be tested.</p>
+
+<p><strong><a name="test-suite"></a>Test Suite</strong></p>
+
+<p><strong><a name="test-registration-form"></a>Test Registration Form</strong></p>
+
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://Nho.one">NHO</a>.  Package fhirtesting#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Aug 13, 2024 18:15+0000">2024-08-13</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

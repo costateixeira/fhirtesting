@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TestPlan xmlns="http://hl7.org/fhir">
+  <id value="testplan1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: TestPlan testplan1</b></p><a name="testplan1"> </a><a name="hctestplan1"> </a><a name="testplan1-en-US"> </a><p><b>url</b>: <a href="TestPlan-testplan1.html">Gherkin test plan</a></p><p><b>version</b>: 0.1.0</p><p><b>title</b>: Gherkin test plan</p><p><b>status</b>: Active</p><p><b>date</b>: 2024-08-13 18:15:38+0000</p><p><b>publisher</b>: NHO</p><p><b>contact</b>: NHO: <a href="http://Nho.one">http://Nho.one</a></p><blockquote><p><b>testCase</b></p><p><b>sequence</b>: 1</p><blockquote><p><b>testRun</b></p><p><b>narrative</b>: </p><div><p><strong>Test Measure</strong></p>
+<ul>
+<li>Populate the server with some data and a Measure</li>
+<li>call the $eval operation</li>
+<li>Use JSONpath to check that the measure evaluates correctly</li>
+</ul>
+</div><h3>Scripts</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Language</b></td><td><b>Source[x]</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:">gherkin</span></td><td><a href="Binary-ghript-measure.html">Binary: 1312 chars (base64)</a></td></tr></table></blockquote></blockquote><blockquote><p><b>testCase</b></p><p><b>sequence</b>: 2</p><blockquote><p><b>testRun</b></p><p><b>narrative</b>: </p><div><p><strong>Test Summary</strong></p>
+<ul>
+<li>Populate the server with some data</li>
+<li>call the $summary operation</li>
+<li>check that the summary is generated</li>
+<li>check that the summary was not persisted</li>
+</ul>
+</div><h3>Scripts</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Language</b></td><td><b>Source[x]</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:">gherkin</span></td><td><a href="Binary-ghript-summary.html">Binary: 1356 chars (base64)</a></td></tr></table></blockquote></blockquote></div>
+  </text>
+  <url value="http://costateixeira.github.io/fhirtesting/TestPlan/testplan1"/>
+  <version value="0.1.0"/>
+  <title value="Gherkin test plan"/>
+  <status value="active"/>
+  <date value="2024-08-13T18:15:38+00:00"/>
+  <publisher value="NHO"/>
+  <contact>
+    <name value="NHO"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://Nho.one"/>
+    </telecom>
+  </contact>
+  <testCase>
+    <sequence value="1"/>
+    <testRun>
+      <narrative value="**Test Measure**&#xA;   * Populate the server with some data and a Measure&#xA;   * call the $eval operation&#xA;   * Use JSONpath to check that the measure evaluates correctly"/>
+      <script>
+        <language>
+          <coding>
+            <code value="gherkin"/>
+          </coding>
+        </language>
+        <sourceReference>
+          <reference value="Binary/ghript-measure"/>
+        </sourceReference>
+      </script>
+    </testRun>
+  </testCase>
+  <testCase>
+    <sequence value="2"/>
+    <testRun>
+      <narrative value="**Test Summary**&#xA;   * Populate the server with some data&#xA;   * call the $summary operation&#xA;   * check that the summary is generated&#xA;   * check that the summary was not persisted"/>
+      <script>
+        <language>
+          <coding>
+            <code value="gherkin"/>
+          </coding>
+        </language>
+        <sourceReference>
+          <reference value="Binary/ghript-summary"/>
+        </sourceReference>
+      </script>
+    </testRun>
+  </testCase>
+</TestPlan>

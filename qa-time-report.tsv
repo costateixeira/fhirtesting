@@ -1,0 +1,11 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-fhirtesting.json	5514	-	0	0	0	0	0	0	3	71	0	0	1	0	0	0	0	1	0	0	71	45	0	0	1	2	0	1
+fsh-generated/resources/Binary-ghript-measure.json	131	25	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15	7	0	0	0	0	0	0
+fsh-generated/resources/Binary-ghript-simple.json	129	12	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	4	0	0	0	0	0	0
+fsh-generated/resources/Binary-ghript-summary.json	131	18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	3	0	0	0	0	0	0
+fsh-generated/resources/OperationDefinition-TestPlanExecute.json	875	18	0	0	0	0	0	0	1	9	0	0	0	0	0	0	0	0	0	0	14	8	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-testplan-bundle.json	2331	18	0	0	1	0	0	127	0	102	0	0	0	0	0	0	0	2	0	0	866	4074	0	0	0	23	0	3
+fsh-generated/resources/TestPlan-testplan0.json	597	21	0	0	0	0	0	0	0	30	0	0	0	0	0	0	0	0	0	0	15	13	0	0	0	0	0	0
+fsh-generated/resources/TestPlan-testplan1.json	1265	19	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	18	10	0	0	0	1	0	0
+input/examples/Bundle-testbundle0.json	5403	25	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	24	11	0	0	0	0	0	0
+input/examples/Bundle-testbundle1.json	5423	22	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	24	10	0	0	0	0	0	0

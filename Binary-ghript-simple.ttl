@@ -1,0 +1,15 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://costateixeira.github.io/fhirtesting/Binary/ghript-simple> a fhir:Binary ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ghript-simple"] ; # 
+  fhir:contentType [ fhir:v "text/x-gherkin"] ; # 
+  fhir:data [ fhir:v "RmVhdHVyZTogU2ltcGxlIFRlc3RzCgpTY2VuYXJpbzogVmVyaWZ5IHN0YXRpYyBKU09OIGRhdGEKICAqIGRlZiByZXNwb25zZSA9IAogICAgIiIiCiAgICB7CiAgICAgICJuYW1lIjogIkZISVIiLAogICAgICAidHlwZSI6ICJUZXN0aW5nIiwKICAgICAgInZlcnNpb24iOiAiMC4xLjAuIgogICAgfQogICAgIiIiCgogIEFuZCBtYXRjaCByZXNwb25zZS5uYW1lID09ICdGSElSJwogIEFuZCBtYXRjaCByZXNwb25zZS50eXBlID09ICdUZXN0aW5nJwogIEFuZCBtYXRjaCByZXNwb25zZS52ZXJzaW9uID09ICcwLjEuMCcK"^^xsd:base64Binary] . # 
+
+# -------------------------------------------------------------------------------------
+

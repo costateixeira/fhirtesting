@@ -1,0 +1,364 @@
+FHIRTesting : Validation Results
+=========================================
+
+err = 3, warn = 20, info = 2
+IG Publisher Version: 1.6.19
+Generated Tue Aug 13 18:15:56 UTC 2024. FHIR version 5.0.0 for fhirtesting#0.1.0 (canonical = http://costateixeira.github.io/fhirtesting)
+ Build Errors : 310 / 7 / 0
+ /github/workspace/fsh-generated/resources/Binary-ghript-measure : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/Binary-ghript-simple : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/Binary-ghript-summary : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-fhirtesting : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/OperationDefinition-TestPlanExecute : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-testplan-bundle : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/TestPlan-testplan0 : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/TestPlan-testplan1 : 0 / 2 / 2
+ /github/workspace/input/examples/Bundle-testbundle0 : 0 / 4 / 4
+ /github/workspace/input/examples/Bundle-testbundle1 : 0 / 4 / 4
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/testbundle0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/testbundle1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/Binary-ghript-measure.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 93, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-measure.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 93, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-simple.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 93, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Binary-ghript-summary.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 93, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle0.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 93, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/Bundle-testbundle1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 93, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/OperationDefinition-TestPlanExecute.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 93, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 93, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 93, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 93, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 93, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 93, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 97, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 107, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 110, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 97, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 107, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 110, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 97, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 107, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 110, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-testplan-bundle.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 93, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan0.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 93, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 91, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 104, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 114, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-testplan1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/authoring.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/authoring.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/authoring.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/authoring.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/authoring.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/authoring.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 188, column 29: The link '#test-data' for "Authoring Test Data" cannot be resolved (valid targets: [test-authoring, segment-header, publish-box, glossary-1, bottom, segment-post-footer, test-suite, markdown-toc-glossary-1, glossary, ig-status, markdown-toc, top, test-registration, stripe, test-registration-form, segment-footer, markdown-toc-process-overview, process-overview, segment-navbar, segment-content, markdown-toc-glossary, segment-breadcrumb])
+ERROR: /github/workspace/output/authoring.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 189, column 26: The link '#test-cases' for "Test Cases" cannot be resolved (valid targets: [test-authoring, segment-header, publish-box, glossary-1, bottom, segment-post-footer, test-suite, markdown-toc-glossary-1, glossary, ig-status, markdown-toc, top, test-registration, stripe, test-registration-form, segment-footer, markdown-toc-process-overview, process-overview, segment-navbar, segment-content, markdown-toc-glossary, segment-breadcrumb])
+ERROR: /github/workspace/output/authoring.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 190, column 26: The link '#test-suites' for "Test suites" cannot be resolved (valid targets: [test-authoring, segment-header, publish-box, glossary-1, bottom, segment-post-footer, test-suite, markdown-toc-glossary-1, glossary, ig-status, markdown-toc, top, test-registration, stripe, test-registration-form, segment-footer, markdown-toc-process-overview, process-overview, segment-navbar, segment-content, markdown-toc-glossary, segment-breadcrumb])
+ERROR: /github/workspace/output/authoring.html#/html/body/div/div/div/div/div/ol/li/ul/li/a at Line 216, column 16: The link 'gherkin' for "gherkin syntax" cannot be resolved
+WARNING: /github/workspace/output/authoring.html: The html source has duplicate anchor Ids: test-registration,test-registration-form,test-suite
+ERROR: /github/workspace/output/execution.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/execution.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/execution.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/execution.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/execution.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/gherkin.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/gherkin.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/gherkin.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/gherkin.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/gherkin.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/ul/li/a at Line 262, column 13: The link 'reporting.html' for "reporting" cannot be resolved
+ERROR: /github/workspace/output/overview.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/overview.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/overview.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/overview.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/overview.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/registration.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/registration.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/registration.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/registration.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/registration.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+WARNING: /github/workspace/output/registration.html: The html source has duplicate anchor Ids: test-registration,test-registration-form,test-suite
+ERROR: /github/workspace/output/specifications.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/specifications.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/specifications.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/specifications.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/specifications.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 89, column 10: The link 'references.html' for "References" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 99, column 10: The link 'glossary.html' for "Glossary" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'personas.html' for "Generic Personas" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 112, column 10: The link 'system-actors.html' for "System Actors" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'transactions.html' for "Transactions" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Binary-ghript-measure.json ==
+ERROR: Binary: Unknown file type measure.feature
+== fsh-generated/resources/Binary-ghript-simple.json ==
+ERROR: Binary: Unknown file type simple.feature
+== fsh-generated/resources/Binary-ghript-summary.json ==
+ERROR: Binary: Unknown file type summary.feature
+== fsh-generated/resources/ImplementationGuide-fhirtesting.json ==
+== fsh-generated/resources/OperationDefinition-TestPlanExecute.json ==
+== fsh-generated/resources/StructureDefinition-testplan-bundle.json ==
+WARNING: StructureDefinition/testplan-bundle: StructureDefinition.snapshot.element[123].short: value should not start or finish with whitespace 'Assertion type - for example 'informative' or 'required' '
+WARNING: StructureDefinition.where(url = 'http://costateixeira.github.io/fhirtesting/StructureDefinition/testplan-bundle'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/TestPlan-testplan0.json ==
+WARNING: TestPlan/testplan0: TestPlan.testCase[0].testRun[0].script.language.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/TestPlan-testplan1.json ==
+WARNING: TestPlan/testplan1: TestPlan.testCase[0].testRun[0].script.language.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: TestPlan/testplan1: TestPlan.testCase[1].testRun[0].script.language.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== input/examples/Bundle-testbundle0.json ==
+WARNING: Bundle/testbundle0: Bundle.entry[0].resource/*TestPlan/testplan1*/.testCase[0].testRun[0].script.language.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Bundle/testbundle0: Bundle.entry[0].resource/*TestPlan/testplan1*/.testCase[0].testRun[0].script.source.ofType(Reference): Entry 1 matches the reference Binary/ghript-measure by type and id but it's fullUrl urn:uuid:05350493-265e-4f8d-87b3-549b19bd5c9e does not match the full target URL urn:uuid:ghript-measure by Bundle resolution rules
+WARNING: Bundle/testbundle0: Bundle.entry[0].resource/*TestPlan/testplan1*/.testCase[1].testRun[0].script.language.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Bundle/testbundle0: Bundle.entry[0].resource/*TestPlan/testplan1*/.testCase[1].testRun[0].script.source.ofType(Reference): Entry 2 matches the reference Binary/ghript-summary by type and id but it's fullUrl urn:uuid:05350493-265e-4f8d-87b3-549b19bd5c9f does not match the full target URL urn:uuid:ghript-summary by Bundle resolution rules
+== input/examples/Bundle-testbundle1.json ==
+WARNING: Bundle/testbundle1: Bundle.entry[0].resource/*TestPlan/testplan1*/.testCase[0].testRun[0].script.language.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Bundle/testbundle1: Bundle.entry[0].resource/*TestPlan/testplan1*/.testCase[0].testRun[0].script.source.ofType(Reference): Entry 1 matches the reference Binary/ghript-measure by type and id but it's fullUrl urn:uuid:05350493-265e-4f8d-87b3-549b19bd5c9e does not match the full target URL urn:uuid:ghript-measure by Bundle resolution rules
+WARNING: Bundle/testbundle1: Bundle.entry[0].resource/*TestPlan/testplan1*/.testCase[1].testRun[0].script.language.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Bundle/testbundle1: Bundle.entry[0].resource/*TestPlan/testplan1*/.testCase[1].testRun[0].script.source.ofType(Reference): Entry 2 matches the reference Binary/ghript-summary by type and id but it's fullUrl urn:uuid:05350493-265e-4f8d-87b3-549b19bd5c9f does not match the full target URL urn:uuid:ghript-summary by Bundle resolution rules

@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://costateixeira.github.io/fhirtesting/TestPlan/testplan0> a fhir:TestPlan ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "testplan0"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: TestPlan testplan0</b></p><a name=\"testplan0\"> </a><a name=\"hctestplan0\"> </a><a name=\"testplan0-en-US\"> </a><p><b>url</b>: <a href=\"TestPlan-testplan0.html\">Gherkin test plan</a></p><p><b>version</b>: 0.1.0</p><p><b>title</b>: Gherkin test plan</p><p><b>status</b>: Active</p><p><b>date</b>: 2024-08-13 18:15:38+0000</p><p><b>publisher</b>: NHO</p><p><b>contact</b>: NHO: <a href=\"http://Nho.one\">http://Nho.one</a></p><blockquote><p><b>testCase</b></p><p><b>sequence</b>: 1</p><blockquote><p><b>testRun</b></p><p><b>narrative</b>: </p><div><p><strong>Simple JSON test</strong></p>\n<ul>\n<li>Check if the test processor is working correctly</li>\n</ul>\n</div><h3>Scripts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Language</b></td><td><b>Source[x]</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">gherkin</span></td><td><a href=\"Binary-ghript-simple.html\">Binary: 392 chars (base64)</a></td></tr></table></blockquote></blockquote></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://costateixeira.github.io/fhirtesting/TestPlan/testplan0"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:title [ fhir:v "Gherkin test plan"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2024-08-13T18:15:38+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "NHO"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "NHO" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://Nho.one" ]
+     ] )
+  ] ) ; # 
+  fhir:testCase ( [
+     fhir:sequence [ fhir:v "1"^^xsd:integer ] ;
+     fhir:testRun ( [
+       fhir:narrative [ fhir:v "**Simple JSON test**\n   * Check if the test processor is working correctly" ] ;
+       fhir:script [
+         fhir:language [
+           fhir:coding ( [
+             fhir:code [ fhir:v "gherkin" ]
+           ] )
+         ] ;
+         fhir:source [
+           a fhir:Reference ;
+           fhir:link <http://costateixeira.github.io/fhirtesting/Binary/ghript-simple> ;
+           fhir:reference [ fhir:v "Binary/ghript-simple" ]
+         ]
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

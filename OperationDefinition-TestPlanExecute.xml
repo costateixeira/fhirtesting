@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OperationDefinition xmlns="http://hl7.org/fhir">
+  <id value="TestPlanExecute"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: OperationDefinition TestPlanExecute</b></p><a name="TestPlanExecute"> </a><a name="hcTestPlanExecute"> </a><a name="TestPlanExecute-en-US"> </a><p>Parameters</p><table class="grid"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>OUT</td><td>return</td><td>instance</td><td>0..1</td><td><a href="http://hl7.org/fhir/R5/bundle.html">Bundle</a></td><td/><td><div><p>The output Bundle</p>
+</div></td></tr></table></div>
+  </text>
+  <url value="http://costateixeira.github.io/fhirtesting/OperationDefinition/TestPlanExecute"/>
+  <version value="0.1.0"/>
+  <name value="TestPlanExecute"/>
+  <title value="Execute Test Plan"/>
+  <status value="active"/>
+  <kind value="operation"/>
+  <experimental value="false"/>
+  <date value="2024-08-13T18:15:38+00:00"/>
+  <publisher value="NHO"/>
+  <contact>
+    <name value="NHO"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://Nho.one"/>
+    </telecom>
+  </contact>
+  <description value="Test Plan $execute operation"/>
+  <affectsState value="false"/>
+  <code value="execute"/>
+  <system value="false"/>
+  <type value="false"/>
+  <instance value="true"/>
+  <parameter>
+    <name value="return"/>
+    <use value="out"/>
+    <scope value="instance"/>
+    <min value="0"/>
+    <max value="1"/>
+    <documentation value="The output Bundle"/>
+    <type value="Bundle"/>
+  </parameter>
+</OperationDefinition>

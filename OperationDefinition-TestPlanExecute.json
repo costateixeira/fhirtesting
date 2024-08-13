@@ -1,0 +1,39 @@
+{
+  "resourceType" : "OperationDefinition",
+  "id" : "TestPlanExecute",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: OperationDefinition TestPlanExecute</b></p><a name=\"TestPlanExecute\"> </a><a name=\"hcTestPlanExecute\"> </a><a name=\"TestPlanExecute-en-US\"> </a><p>Parameters</p><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>OUT</td><td>return</td><td>instance</td><td>0..1</td><td><a href=\"http://hl7.org/fhir/R5/bundle.html\">Bundle</a></td><td/><td><div><p>The output Bundle</p>\n</div></td></tr></table></div>"
+  },
+  "url" : "http://costateixeira.github.io/fhirtesting/OperationDefinition/TestPlanExecute",
+  "version" : "0.1.0",
+  "name" : "TestPlanExecute",
+  "title" : "Execute Test Plan",
+  "status" : "active",
+  "kind" : "operation",
+  "experimental" : false,
+  "date" : "2024-08-13T18:15:38+00:00",
+  "publisher" : "NHO",
+  "contact" : [{
+    "name" : "NHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://Nho.one"
+    }]
+  }],
+  "description" : "Test Plan $execute operation",
+  "affectsState" : false,
+  "code" : "execute",
+  "system" : false,
+  "type" : false,
+  "instance" : true,
+  "parameter" : [{
+    "name" : "return",
+    "use" : "out",
+    "scope" : ["instance"],
+    "min" : 0,
+    "max" : "1",
+    "documentation" : "The output Bundle",
+    "type" : "Bundle"
+  }]
+}

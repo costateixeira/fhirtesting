@@ -1,0 +1,35 @@
+[
+  {
+    "id" : "fhirtesting",
+    "type" : "ImplementationGuide",
+    "url" : "http://costateixeira.github.io/fhirtesting/ImplementationGuide/fhirtesting",
+    "version" : "0.1.0",
+    "name" : "FHIRTesting"
+  },
+  {
+    "id" : "TestPlanExecute",
+    "type" : "OperationDefinition",
+    "url" : "http://costateixeira.github.io/fhirtesting/OperationDefinition/TestPlanExecute",
+    "version" : "0.1.0",
+    "name" : "TestPlanExecute"
+  },
+  {
+    "id" : "testplan-bundle",
+    "type" : "StructureDefinition",
+    "url" : "http://costateixeira.github.io/fhirtesting/StructureDefinition/testplan-bundle",
+    "version" : "0.1.0",
+    "name" : "TestPlanBundle"
+  },
+  {
+    "id" : "testplan0",
+    "type" : "TestPlan",
+    "url" : "http://costateixeira.github.io/fhirtesting/TestPlan/testplan0",
+    "version" : "0.1.0"
+  },
+  {
+    "id" : "testplan1",
+    "type" : "TestPlan",
+    "url" : "http://costateixeira.github.io/fhirtesting/TestPlan/testplan1",
+    "version" : "0.1.0"
+  }
+]
