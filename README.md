@@ -7,9 +7,12 @@
 ![QA hints](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2FWorldHealthOrganization.github.io%2Fsmart-ig-empty%2Fqa.json&query=%24.hints&logoColor=yellow&label=QA%20hints&color=yellow)
 <!--/badges-->
 
-# EMPTY IG
+# FHIR testing
 
-This is an empty framework.
+How to create test packages for FHIR IGs / testable FHIR IGs
+
+## CI-Build
+https://costateixeira.github.io/fhirtesting/
 
 
 ## Changes and feedback
